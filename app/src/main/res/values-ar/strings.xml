@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حجز موعد</string>
+    <string name="signup_as">تسجيل كـ</string>
+    <string name="customer">زبون/ة</string>
+    <string name="company">الشركات</string>
+    <string name="register">تسجيل جديد</string>
+    <string name="register2">تسجيل</string>
+    <string name="registered_by">تسجيل بواسطة</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="empty_field">لا يمكن ترك هذا الحقل فارغاً</string>
+    <string name="invalid_email">الرجاء إدخال بريد الكتروني صالح</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="full_name">الاسم كامل</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="gender">الجنس</string>
+    <string name="forgot_password2">نسيت كلمة المرور؟</string>
+    <string name="successful">تم التسجيل بنجاح.</string>
+    <string name="close">اغلاق</string>
+    <string name="open">مفتوح</string>
+    <string name="location">الموقع</string>
+    <string name="short_password">كلمة مرور قصيرة</string>
+    <string name="welcome">مرحبا </string>
+    <string name="welcome2">مرحبا بكم في تطبيق </string>
+    <string name="menu_home">الريسية</string>
+    <string name="my_profile">حسابي</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="edit">تعديل</string>
+    <string name="noReservations">لا يوجد حجوزات</string>
+    <string name="companyName">اسم الشركة</string>
+    <string name="time">وقت الحجز</string>
+    <string name="desc">التفاصيل</string>
+    <string name="add">إضافة</string>
+    <string name="addBooking">أضف حجز</string>
+    <string name="noCompany">لا يوجد شركات</string>
+    <string name="selectCompanyName">حدد اسم الشركة</string>
+
+</resources>

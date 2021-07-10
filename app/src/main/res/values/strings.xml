@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Appointment Booking</string>
+
+    <string name="facebook_app_id" translatable="false">525312781814548</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb525312781814548</string>
+
+    <string name="signup_as">Register as</string>
+    <string name="customer">Customer</string>
+    <string name="company">Companies</string>
+    <string name="register">Register</string>
+    <string name="register2">Register</string>
+    <string name="registered_by">Registered by</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="empty_field">This field cannot be left blank</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="login">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="gender">Gender</string>
+    <string name="forgot_password2">Forgot Password?</string>
+    <string name="successful">Successful.</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="location">location</string>
+    <string name="short_password">Short password</string>
+    <string name="welcome">Welcome </string>
+    <string name="welcome2">Welcome to our </string>
+    <string name="menu_home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Logout</string>
+    <string name="edit">Edit</string>
+    <string name="noReservations">لا يوجد حجوزات</string>
+    <string name="companyName">Company Name</string>
+    <string name="time">Booking time</string>
+    <string name="desc">Details</string>
+    <string name="add">Addition</string>
+    <string name="addBooking">Add Booking</string>
+    <string name="noCompany">لا يوجد شركات </string>
+    <string name="selectCompanyName">Select Company Name</string>
+
+</resources>

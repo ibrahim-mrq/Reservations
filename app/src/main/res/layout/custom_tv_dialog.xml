@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/customTvDialog_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="@color/colorGray" />
+
+    <View
+        android:id="@+id/customTvDialog_view"
+        android:layout_width="match_parent"
+        android:background="@color/secondary_text_color"
+        android:layout_height="1dp" />
+
+
+</LinearLayout>

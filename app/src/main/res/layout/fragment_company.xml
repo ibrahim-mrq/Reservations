@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.fragment.CompanyFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SearchView
+            android:id="@+id/search_searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/shape_search"
+            android:closeIcon="@null"
+            android:elevation="20dp"
+            android:iconifiedByDefault="false"
+            android:queryBackground="@drawable/shape_search"
+            android:queryHint="ابحث هنا "
+            android:searchIcon="@drawable/ic_search"
+            app:queryBackground="@drawable/shape_search" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/company_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/search_searchView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/company_tv_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/search_searchView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/noCompany"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/bottom_sheet" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
